@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "DM_Sans New";
+  src: url("./Font\ DM_Sans") format("truetype");
+}
+
+/* THIS IS NAVIGATION BAR CONTROLS */
+
+.nav-contain {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+.menu {
+  /* width: 50%; */
+  margin: 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul {
+  display: flex;
+}
+.menu li {
+  margin: 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.action {
+  display: flex;
+  align-items: center;
+}
+.f-bold {
+  font-weight: bold;
+}
+.color {
+  background-color: #3bcea3;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  width: 100px;
+}
+
+/* --------------------------------- HERE ENDS THE NAVIGATION BAR---------------------- */
+
+/* --------------------------------- HERO SECTION ------------------------------------- */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f5;
+  margin: 20px 0;
+}
+.hero-pic-size {
+  width: 700px;
+  height: 700px;
+}
+.f-blue {
+  color: #3548ae;
+}
+.f-gray {
+  color: gray;
+}
+.f-hero-size {
+  font-size: 60px;
+}
+.f-height {
+  line-height: 10px;
+}
+.f-margin{
+    margin: 50px 0;
+}
+.hero-text {
+  width: 40%;
+  margin-left: 70px;
+}
+.hero-check {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-check-list {
+  margin: 0 10px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.hero-check-list p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.hero-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  height: 50px;
+  /* width:90%; */
+  margin-top: 20px;
+  background-color: white;
+}
+.hero-search p {
+  margin: 10px 40px 10px 10px;
+  color: rgb(224, 218, 218);
+  font-size: 14px;
+}
+.hero-search-left {
+  display: flex;
+  align-items: center;
+  justify-self: flex-start;
+}
+.hero-search input {
+  outline: none;
+  width: 50%;
+  margin-right: 30px;
+  padding-left: 30px;
+  border: none;
+  border-left: 2px solid rgb(224, 218, 218);
+}
+::placeholder {
+  color: rgb(224, 218, 218);
+}
+
+/* ---------------------------------- HERO SECTION ENDS ----------------------------------- */
+/* ----------------------HERO 2-------------- */
+
+.hero-btn {
+  background-color: #3bcea3;
+  border-radius: 50px;
+  color: white;
+  padding:20px;
+}
+.no-bg {
+    background-color: white;
+}
+.hero-margin{
+    margin: 100px 0;
+}
